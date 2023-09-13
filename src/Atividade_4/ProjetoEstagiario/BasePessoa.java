@@ -1,3 +1,4 @@
+package Atividade_4.ProjetoEstagiario;
 import java.time.LocalDate;
 
 public abstract class BasePessoa {

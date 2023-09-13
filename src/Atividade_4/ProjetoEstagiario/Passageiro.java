@@ -1,3 +1,4 @@
+package Atividade_4.ProjetoEstagiario;
 public class Passageiro extends BasePessoa{
     private String numeroCartao;
     private String documento;

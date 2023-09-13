@@ -1,3 +1,4 @@
+package Atividade_4.ProjetoEstagiario;
 public class Funcionario extends BasePessoa {
     private String contaCorrente;
     private String cracha;
