@@ -49,4 +49,30 @@ public class Caminhao extends BaseVeiculo {
         this.placa = placa;
         this.anoModelo = anoModelo;
     }
+    public void Imprimir(){
+        System.out.println("Codigo: " + this.codigo);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("Cor: " + this.cor);
+        System.out.println("Ano fabricacao: " + this.anoFabricacao);
+        System.out.println("Eixos: " + this.eixos);
+        System.out.println("Peso liquido: " + this.pesoLiquido);
+        System.out.println("Peso total: " + this.pesoTotal);
+        System.out.println("Assentos: " + this.assentos);
+        System.out.println("Rodas: " + this.rodas);
+        System.out.println("Fabricante: " + this.fabricante);
+        System.out.println("Potencia: " + this.potencia);
+        System.out.println("Tipo de combustivel: " + this.tipoCombustivel);
+        System.out.println("Nome proprietario: " + this.nomeProprietario);
+        System.out.println("EstadoUF: " + this.estadoUF);
+        System.out.println("CidadeUF: " + cidadeUF);
+        System.out.println("Tipo de veiculo: " + this.tipoVeiculo);
+        System.out.println("Quantidade de motores: " + this.qtdeMotores);
+        System.out.println("Quantidade de ocupantes: " + this.qtdeOcupantes);
+        System.out.println("Portas: " + this.portas);
+        System.out.println("Codigo Renavam: " + this.codigoRenavam);
+        System.out.println("Chassi: " + this.chassi);
+        System.out.println("Placa: " + this.placa);
+        System.out.println("Ano do modelo: " + this.anoModelo);
+    }
 }
